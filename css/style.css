@@ -1,0 +1,106 @@
+header {
+    width: 100%;
+    height: 48px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(190, 34, 107), rgb(187, 69, 23));
+    cursor: pointer;
+}
+
+p.titulo {
+    font-weight: bold;
+}
+
+.informacoes-header {
+    position: relative;
+    top: 4px;
+}
+
+.informacoes-header p.text-header {
+    font-size: 13px;
+}
+
+.container {
+    width: 98%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-header input[type=submit] {
+    color: white;
+    background-color: rgb(255, 255, 255, 0);
+    border: 1px solid white;
+    padding: 6px 10px;
+    position: relative;
+    top: 6px;
+}
+
+.idiomas {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.idiomas a {
+    text-decoration: none;
+    color: gray;
+}
+
+.logo-insta p {
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    margin: 15px 55px;
+}
+
+main.principal {
+    width: 100%;
+}
+
+.form {
+    margin: 0 auto;
+    width: 350px;
+    height: 444px;
+    border: 1px solid #cccccc;
+}
+
+.form .btn0 a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 3px;
+}
+
+.btn0 {
+    width: 70%;
+    height: 32px;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+}
+
+.linha {
+    width: 70%;
+    height: 1px;
+    margin: 28px auto;
+    background-color: #cccccc;
+    position: relative;
+}
+
+.ou {
+    position: absolute;
+    right: 50%;
+    bottom: -29px;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    z-index: 99999;
+    color: rgb(112, 108, 108);
+}
