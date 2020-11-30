@@ -59,9 +59,9 @@ main.principal {
 }
 
 .form {
-    margin: 0 auto;
+    margin: 40px auto;
     width: 350px;
-    height: 444px;
+    height: 400px;
     border: 1px solid #cccccc;
 }
 
@@ -101,6 +101,94 @@ main.principal {
     height: 40px;
     text-align: center;
     background-color: white;
-    z-index: 99999;
+    z-index: 98;
     color: rgb(112, 108, 108);
+}
+
+.wraper-inputs {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wraper-inputs input {
+    margin: 5px 0;
+    z-index: 99;
+    width: 100%;
+    height: 34px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    background-color: #f3f3f3ef;
+    padding-left: 9px;
+}
+
+.wraper-inputs a {
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: blue;
+    margin: 5px 0;
+}
+
+.btn {
+    margin: 13px auto;
+    text-align: center;
+    width: 70%;
+    height: 27px;
+    background-color: #0095f6;
+    position: relative;
+    border-radius: 3px;
+}
+
+.btn a {
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    color: white;
+}
+
+form footer {
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: gray;
+}
+
+form footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+.from-face {
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+.from-face>p {
+    color: gray;
+}
+
+.from-face>span>p {
+    font-weight: 600;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+footer.rodape {
+    width: 100%;
+    background-color: rgb(251, 247, 247);
+}
+
+.rodape ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.rodape ul {
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+}
+
+.rodape ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
 }
